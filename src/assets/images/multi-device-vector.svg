@@ -1,0 +1,144 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4f9cf9;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#043873;stop-opacity:0.1" />
+    </linearGradient>
+    <linearGradient id="deviceGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff" />
+      <stop offset="100%" style="stop-color:#f8f9fa" />
+    </linearGradient>
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#043873" />
+      <stop offset="100%" style="stop-color:#4f9cf9" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="400" fill="url(#bgGradient)" rx="20"/>
+  
+  <!-- Desktop/Laptop -->
+  <g transform="translate(200, 80)">
+    <!-- Laptop base -->
+    <rect x="0" y="120" width="200" height="15" fill="url(#deviceGrad)" rx="8"/>
+    <rect x="10" y="105" width="180" height="20" fill="#dee2e6" rx="4"/>
+    
+    <!-- Laptop screen -->
+    <rect x="20" y="20" width="160" height="100" fill="url(#deviceGrad)" rx="6" stroke="#dee2e6" stroke-width="2"/>
+    <rect x="25" y="25" width="150" height="90" fill="url(#screenGrad)" rx="4"/>
+    
+    <!-- Screen content -->
+    <rect x="35" y="35" width="130" height="6" fill="#ffffff" opacity="0.9" rx="3"/>
+    <rect x="35" y="45" width="100" height="4" fill="#ffffff" opacity="0.7" rx="2"/>
+    <rect x="35" y="55" width="120" height="4" fill="#ffffff" opacity="0.7" rx="2"/>
+    <rect x="35" y="70" width="60" height="25" fill="#ffffff" opacity="0.9" rx="4"/>
+    <rect x="105" y="70" width="60" height="25" fill="#FFE492" opacity="0.9" rx="4"/>
+  </g>
+  
+  <!-- Tablet -->
+  <g transform="translate(80, 150)">
+    <rect x="0" y="0" width="80" height="120" fill="url(#deviceGrad)" rx="8" stroke="#dee2e6" stroke-width="2"/>
+    <rect x="5" y="15" width="70" height="90" fill="url(#screenGrad)" rx="4"/>
+    
+    <!-- Tablet content -->
+    <rect x="15" y="25" width="50" height="4" fill="#ffffff" opacity="0.9" rx="2"/>
+    <rect x="15" y="35" width="35" height="3" fill="#ffffff" opacity="0.7" rx="1"/>
+    <rect x="15" y="42" width="40" height="3" fill="#ffffff" opacity="0.7" rx="1"/>
+    <rect x="15" y="55" width="25" height="20" fill="#ffffff" opacity="0.9" rx="3"/>
+    <rect x="45" y="55" width="20" height="20" fill="#FFE492" opacity="0.9" rx="3"/>
+    
+    <!-- Home button -->
+    <circle cx="40" cy="110" r="4" fill="#dee2e6"/>
+  </g>
+  
+  <!-- Smartphone -->
+  <g transform="translate(450, 120)">
+    <rect x="0" y="0" width="50" height="90" fill="url(#deviceGrad)" rx="8" stroke="#dee2e6" stroke-width="2"/>
+    <rect x="3" y="8" width="44" height="74" fill="url(#screenGrad)" rx="4"/>
+    
+    <!-- Phone content -->
+    <rect x="8" y="15" width="35" height="3" fill="#ffffff" opacity="0.9" rx="1"/>
+    <rect x="8" y="22" width="25" height="2" fill="#ffffff" opacity="0.7" rx="1"/>
+    <rect x="8" y="28" width="30" height="2" fill="#ffffff" opacity="0.7" rx="1"/>
+    <rect x="8" y="38" width="15" height="15" fill="#ffffff" opacity="0.9" rx="2"/>
+    <rect x="26" y="38" width="15" height="15" fill="#FFE492" opacity="0.9" rx="2"/>
+    <rect x="8" y="58" width="35" height="15" fill="#28a745" opacity="0.8" rx="2"/>
+    
+    <!-- Speaker -->
+    <rect x="18" y="3" width="14" height="2" fill="#dee2e6" rx="1"/>
+  </g>
+  
+  <!-- Smartwatch -->
+  <g transform="translate(520, 250)">
+    <rect x="0" y="0" width="35" height="40" fill="url(#deviceGrad)" rx="6" stroke="#dee2e6" stroke-width="2"/>
+    <rect x="3" y="5" width="29" height="30" fill="url(#screenGrad)" rx="3"/>
+    
+    <!-- Watch content -->
+    <circle cx="17.5" cy="20" r="8" fill="#ffffff" opacity="0.2"/>
+    <circle cx="17.5" cy="20" r="5" fill="#ffffff" opacity="0.9"/>
+    <rect x="12" y="28" width="11" height="2" fill="#ffffff" opacity="0.7" rx="1"/>
+    
+    <!-- Watch band -->
+    <rect x="15" y="-5" width="5" height="10" fill="#6c757d" rx="2"/>
+    <rect x="15" y="35" width="5" height="10" fill="#6c757d" rx="2"/>
+  </g>
+  
+  <!-- Cloud sync in center -->
+  <g transform="translate(280, 200)">
+    <!-- Cloud -->
+    <ellipse cx="20" cy="15" rx="15" ry="8" fill="#ffffff" stroke="#4f9cf9" stroke-width="2"/>
+    <circle cx="10" cy="15" r="8" fill="#ffffff" stroke="#4f9cf9" stroke-width="2"/>
+    <circle cx="30" cy="15" r="6" fill="#ffffff" stroke="#4f9cf9" stroke-width="2"/>
+    
+    <!-- Sync arrows -->
+    <path d="M5 25 Q20 35 35 25" stroke="#4f9cf9" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M35 5 Q20 -5 5 5" stroke="#4f9cf9" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    
+    <!-- Sync indicator -->
+    <circle cx="20" cy="15" r="3" fill="#28a745">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Connection lines -->
+  <g opacity="0.4">
+    <line x1="180" y1="180" x2="260" y2="210" stroke="#4f9cf9" stroke-width="2" stroke-dasharray="5,5"/>
+    <line x1="160" y1="210" x2="260" y2="220" stroke="#4f9cf9" stroke-width="2" stroke-dasharray="5,5"/>
+    <line x1="450" y1="180" x2="320" y2="210" stroke="#4f9cf9" stroke-width="2" stroke-dasharray="5,5"/>
+    <line x1="520" y1="270" x2="320" y2="230" stroke="#4f9cf9" stroke-width="2" stroke-dasharray="5,5"/>
+  </g>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#4f9cf9"/>
+    </marker>
+  </defs>
+  
+  <!-- Data sync indicators -->
+  <g transform="translate(100, 300)">
+    <rect x="0" y="0" width="400" height="30" fill="#ffffff" rx="6" stroke="#dee2e6" stroke-width="1"/>
+    <rect x="10" y="8" width="15" height="14" fill="#4f9cf9" rx="2"/>
+    <rect x="35" y="12" width="100" height="6" fill="#4f9cf9" opacity="0.3" rx="3"/>
+    <rect x="145" y="12" width="80" height="6" fill="#28a745" opacity="0.5" rx="3"/>
+    <text x="240" y="18" fill="#28a745" font-family="Arial" font-size="10" font-weight="bold">Synced</text>
+    
+    <!-- Progress indicator -->
+    <rect x="300" y="12" width="80" height="6" fill="#e9ecef" rx="3"/>
+    <rect x="300" y="12" width="50" height="6" fill="#ffc107" rx="3"/>
+  </g>
+  
+  <!-- Floating elements -->
+  <circle cx="100" cy="80" r="20" fill="#FFE492" opacity="0.3"/>
+  <circle cx="520" cy="100" r="15" fill="#28a745" opacity="0.3"/>
+  <rect x="50" y="320" width="25" height="25" fill="#4f9cf9" opacity="0.2" rx="6"/>
+  <polygon points="480,320 500,300 520,320 500,340" fill="#ffc107" opacity="0.3"/>
+  
+  <!-- WiFi signals -->
+  <g transform="translate(380, 60)">
+    <path d="M0 20 Q10 10 20 20" stroke="#4f9cf9" stroke-width="2" fill="none" opacity="0.3"/>
+    <path d="M2 20 Q10 14 18 20" stroke="#4f9cf9" stroke-width="2" fill="none" opacity="0.6"/>
+    <path d="M4 20 Q10 16 16 20" stroke="#4f9cf9" stroke-width="2" fill="none" opacity="0.9"/>
+    <circle cx="10" cy="20" r="2" fill="#4f9cf9"/>
+  </g>
+</svg>

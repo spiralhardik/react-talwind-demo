@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  --bg-primary: #043873;
+  --breakpoint-desktop: 1480px;
+  --btn-bg: #4f9cf9;
+  --text-color: #212529;
+}
+
+main section {
+  padding: 140px 0;
+}
+
+@media (max-width: 768px) {
+  main section {
+    padding: 100px 0;
+  }
+}
+
+/* Custom animations for login popup */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-out;
+}
+
+.animate-slideUp {
+  animation: slideUp 0.4s ease-out;
+}

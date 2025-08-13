@@ -1,0 +1,144 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4f9cf9;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#043873;stop-opacity:0.1" />
+    </linearGradient>
+    <linearGradient id="panelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff" />
+      <stop offset="100%" style="stop-color:#f8f9fa" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="400" fill="url(#bgGradient)" rx="20"/>
+  
+  <!-- Main customization interface -->
+  <g transform="translate(150, 50)">
+    <!-- Settings panel -->
+    <rect x="0" y="0" width="300" height="300" fill="url(#panelGrad)" rx="12" stroke="#dee2e6" stroke-width="2"/>
+    
+    <!-- Header -->
+    <rect x="20" y="20" width="260" height="40" fill="#4f9cf9" opacity="0.1" rx="8"/>
+    <text x="150" y="42" text-anchor="middle" fill="#4f9cf9" font-family="Arial" font-size="14" font-weight="bold">Customize Settings</text>
+    
+    <!-- Color customization -->
+    <text x="30" y="85" fill="#343a40" font-family="Arial" font-size="12" font-weight="bold">Theme Colors</text>
+    <circle cx="50" cy="105" r="12" fill="#4f9cf9"/>
+    <circle cx="80" cy="105" r="12" fill="#28a745"/>
+    <circle cx="110" cy="105" r="12" fill="#ffc107"/>
+    <circle cx="140" cy="105" r="12" fill="#dc3545"/>
+    <circle cx="170" cy="105" r="12" fill="#6f42c1"/>
+    
+    <!-- Selected indicator -->
+    <circle cx="50" cy="105" r="15" fill="none" stroke="#4f9cf9" stroke-width="3"/>
+    
+    <!-- Layout options -->
+    <text x="30" y="145" fill="#343a40" font-family="Arial" font-size="12" font-weight="bold">Layout</text>
+    
+    <!-- Layout option 1 -->
+    <rect x="30" y="155" width="60" height="40" fill="#ffffff" rx="4" stroke="#4f9cf9" stroke-width="2"/>
+    <rect x="35" y="160" width="50" height="8" fill="#4f9cf9" opacity="0.3" rx="2"/>
+    <rect x="35" y="172" width="20" height="18" fill="#4f9cf9" opacity="0.2" rx="2"/>
+    <rect x="60" y="172" width="20" height="18" fill="#4f9cf9" opacity="0.2" rx="2"/>
+    
+    <!-- Layout option 2 -->
+    <rect x="100" y="155" width="60" height="40" fill="#ffffff" rx="4" stroke="#dee2e6" stroke-width="1"/>
+    <rect x="105" y="160" width="50" height="8" fill="#6c757d" opacity="0.3" rx="2"/>
+    <rect x="105" y="172" width="50" height="6" fill="#6c757d" opacity="0.2" rx="2"/>
+    <rect x="105" y="182" width="50" height="6" fill="#6c757d" opacity="0.2" rx="2"/>
+    
+    <!-- Layout option 3 -->
+    <rect x="170" y="155" width="60" height="40" fill="#ffffff" rx="4" stroke="#dee2e6" stroke-width="1"/>
+    <rect x="175" y="160" width="15" height="30" fill="#6c757d" opacity="0.2" rx="2"/>
+    <rect x="195" y="160" width="30" height="30" fill="#6c757d" opacity="0.3" rx="2"/>
+    
+    <!-- Font size slider -->
+    <text x="30" y="225" fill="#343a40" font-family="Arial" font-size="12" font-weight="bold">Font Size</text>
+    <rect x="30" y="235" width="200" height="4" fill="#e9ecef" rx="2"/>
+    <rect x="30" y="235" width="120" height="4" fill="#4f9cf9" rx="2"/>
+    <circle cx="150" cy="237" r="8" fill="#4f9cf9"/>
+    
+    <!-- Toggle switches -->
+    <text x="30" y="265" fill="#343a40" font-family="Arial" font-size="12" font-weight="bold">Features</text>
+    
+    <!-- Dark mode toggle -->
+    <rect x="30" y="275" width="40" height="20" fill="#4f9cf9" rx="10"/>
+    <circle cx="45" cy="285" r="8" fill="#ffffff"/>
+    <text x="80" y="287" fill="#343a40" font-family="Arial" font-size="10">Dark Mode</text>
+    
+    <!-- Notifications toggle -->
+    <rect x="160" y="275" width="40" height="20" fill="#e9ecef" rx="10"/>
+    <circle cx="170" cy="285" r="8" fill="#ffffff"/>
+    <text x="210" y="287" fill="#343a40" font-family="Arial" font-size="10">Notifications</text>
+  </g>
+  
+  <!-- Preview window -->
+  <g transform="translate(480, 80)">
+    <rect x="0" y="0" width="100" height="120" fill="#ffffff" rx="8" stroke="#dee2e6" stroke-width="2"/>
+    <text x="50" y="15" text-anchor="middle" fill="#6c757d" font-family="Arial" font-size="8">Preview</text>
+    <rect x="10" y="25" width="80" height="15" fill="#4f9cf9" opacity="0.3" rx="3"/>
+    <rect x="10" y="45" width="60" height="6" fill="#6c757d" opacity="0.3" rx="2"/>
+    <rect x="10" y="55" width="70" height="6" fill="#6c757d" opacity="0.3" rx="2"/>
+    <rect x="10" y="70" width="35" height="25" fill="#4f9cf9" opacity="0.2" rx="3"/>
+    <rect x="50" y="70" width="35" height="25" fill="#4f9cf9" opacity="0.2" rx="3"/>
+  </g>
+  
+  <!-- Customization tools -->
+  <g transform="translate(50, 120)">
+    <!-- Color picker -->
+    <rect x="0" y="0" width="60" height="60" fill="#ffffff" rx="8" stroke="#dee2e6" stroke-width="2"/>
+    <circle cx="30" cy="30" r="20" fill="none" stroke="#4f9cf9" stroke-width="3"/>
+    <circle cx="30" cy="30" r="15" fill="none" stroke="#28a745" stroke-width="2"/>
+    <circle cx="30" cy="30" r="10" fill="none" stroke="#ffc107" stroke-width="2"/>
+    <circle cx="30" cy="30" r="5" fill="#dc3545"/>
+  </g>
+  
+  <g transform="translate(50, 200)">
+    <!-- Font selector -->
+    <rect x="0" y="0" width="80" height="50" fill="#ffffff" rx="8" stroke="#dee2e6" stroke-width="2"/>
+    <text x="40" y="15" text-anchor="middle" fill="#343a40" font-family="Arial" font-size="8">Aa</text>
+    <text x="40" y="28" text-anchor="middle" fill="#343a40" font-family="serif" font-size="8">Aa</text>
+    <text x="40" y="41" text-anchor="middle" fill="#343a40" font-family="monospace" font-size="8">Aa</text>
+  </g>
+  
+  <g transform="translate(50, 270)">
+    <!-- Widget customizer -->
+    <rect x="0" y="0" width="70" height="70" fill="#ffffff" rx="8" stroke="#dee2e6" stroke-width="2"/>
+    <rect x="10" y="10" width="50" height="15" fill="#4f9cf9" opacity="0.3" rx="3"/>
+    <rect x="10" y="30" width="20" height="15" fill="#28a745" opacity="0.3" rx="3"/>
+    <rect x="35" y="30" width="25" height="15" fill="#ffc107" opacity="0.3" rx="3"/>
+    <rect x="10" y="50" width="50" height="10" fill="#dc3545" opacity="0.3" rx="3"/>
+  </g>
+  
+  <!-- Floating customization elements -->
+  <g transform="translate(480, 250)">
+    <!-- Brush/paint tool -->
+    <circle cx="20" cy="20" r="15" fill="#ffffff" stroke="#dee2e6" stroke-width="2"/>
+    <rect x="15" y="10" width="10" height="20" fill="#4f9cf9" rx="2"/>
+    <circle cx="20" cy="8" r="3" fill="#4f9cf9"/>
+  </g>
+  
+  <!-- Customization arrows -->
+  <g opacity="0.4">
+    <path d="M130 180 Q200 160 280 180" stroke="#4f9cf9" stroke-width="2" fill="none" stroke-dasharray="5,5"/>
+    <path d="M120 250 Q200 280 300 250" stroke="#28a745" stroke-width="2" fill="none" stroke-dasharray="5,5"/>
+  </g>
+  
+  <!-- Decorative elements -->
+  <circle cx="520" cy="320" r="25" fill="#FFE492" opacity="0.3"/>
+  <rect x="80" y="50" width="30" height="30" fill="#4f9cf9" opacity="0.2" rx="8"/>
+  <polygon points="480,50 500,30 520,50 500,70" fill="#28a745" opacity="0.3"/>
+  
+  <!-- Settings gear -->
+  <g transform="translate(520, 180)">
+    <circle cx="15" cy="15" r="12" fill="#6c757d" opacity="0.3"/>
+    <circle cx="15" cy="15" r="6" fill="#ffffff"/>
+    <circle cx="15" cy="15" r="3" fill="#4f9cf9"/>
+    <!-- Gear teeth -->
+    <rect x="13" y="0" width="4" height="6" fill="#6c757d" opacity="0.3"/>
+    <rect x="13" y="24" width="4" height="6" fill="#6c757d" opacity="0.3"/>
+    <rect x="0" y="13" width="6" height="4" fill="#6c757d" opacity="0.3"/>
+    <rect x="24" y="13" width="6" height="4" fill="#6c757d" opacity="0.3"/>
+  </g>
+</svg>
